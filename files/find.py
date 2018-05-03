@@ -78,7 +78,7 @@ while 1:
 				pass
 
 			oldname = rootdir+sourcedir+"\\"+result
-			newname = newdir+result
+			newname = newdir+"\\"+result
 			shutil.copyfile(oldname,newname)
 			count += 1
 			# print('源：'+oldname+'，新'+newname)
