@@ -117,9 +117,7 @@ while 1:
 			# print(mobile)
 			# number = folder_count(newdir)
 			resultsubdir = rootdir+resultdir+string[0]
-			if os.path.exists(resultsubdir):
-				number = find(resultsubdir, istring)
-
+			number = find(resultsubdir, istring)
 			print("文件数量:"+str(number))
 			# number = (number if (number) else 1)
 			# print(rootdir+resultdir+istring+',number:'+str(number))
